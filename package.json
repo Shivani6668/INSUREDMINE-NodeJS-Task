@@ -1,0 +1,29 @@
+{
+  "name": "policy-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "dayjs": "^1.11.18",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.1",
+    "multer": "^2.0.2",
+    "node-cron": "^4.2.1",
+    "os": "^0.1.2",
+    "pidusage": "^4.0.1",
+    "xlsx": "^0.18.5"
+  }
+}
